@@ -23,7 +23,7 @@ jobs:
         with:
           flutter-version: '3.22.1'
 
-      - name: Verificar versão
+      - name: Verificar versão do Flutter
         run: flutter --version
 
       - name: Obter dependências
